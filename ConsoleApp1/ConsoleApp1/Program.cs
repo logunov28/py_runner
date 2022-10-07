@@ -45,7 +45,8 @@ class Reg
             
         }
         else { 
-            Console.WriteLine("Python 3 не установлен. Чтобы запустить приложение, установите Python 3.");
+            Console.WriteLine("Python 3 не установлен. Чтобы запустить приложение, скачайте и установите Python 3:");
+	    Console.WriteLine("https://www.python.org/downloads/");
             for (; ; )
             { }
         }
