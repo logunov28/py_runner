@@ -38,15 +38,14 @@ class Reg
             else
             {
                 
-                Console.WriteLine("Нечего запускать!");
+                Console.WriteLine("Nothing to run!");
                 for (; ; )
                 { }
             }
             
         }
-        else { 
-            Console.WriteLine("Python 3 не установлен. Чтобы запустить приложение, скачайте и установите Python 3:");
-	    Console.WriteLine("https://www.python.org/downloads/");
+        else {
+            Process.Start("winerror.js");
             for (; ; )
             { }
         }
