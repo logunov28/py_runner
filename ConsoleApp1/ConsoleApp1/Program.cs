@@ -4,6 +4,7 @@ using System.Diagnostics;
 
 class Reg
 
+
 {
     public static void Main()
     {
@@ -37,17 +38,12 @@ class Reg
             }
             else
             {
-                
-                Console.WriteLine("Nothing to run!");
-                for (; ; )
-                { }
+                Process.Start("ntr.js");
             }
             
         }
         else {
             Process.Start("winerror.js");
-            for (; ; )
-            { }
         }
 
     }
